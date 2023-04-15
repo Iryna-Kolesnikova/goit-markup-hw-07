@@ -205,15 +205,16 @@ line-height: 1.2;
   flex-wrap: wrap;
 row-gap: 72px;
 }
-.customers-item {
-  width: calc((100% - 16px) / 2);
-}
+
 .customers-list:nth-child(2n+1) {
   column-gap: 16px;
 }
 
 .customers-icon {
   width: 110px;
+}
+.customers-item {
+  width: calc((100% - 16px) / 2);
 }
 .customers-list .customers-item + .customers-item {
   margin-left: 0;
@@ -467,6 +468,9 @@ line-height: 1.2;
   .customers-link {
    width: 168px; 
   }
+  .customers-item {
+  width: calc((100% - 24px*2) / 3);
+}
   /* ---------------------------------------------- */
   .last {
     font-weight: 400;
