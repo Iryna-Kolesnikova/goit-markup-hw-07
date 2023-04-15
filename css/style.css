@@ -356,8 +356,8 @@ img {
 /* ==================ADVANTAGES================ */
 
 .advantages {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 .page-title {
@@ -400,8 +400,8 @@ img {
 }
 .work-items-bc {
   background: var(--logo-footer-color);
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 .card-descriotion {
   padding: 32px 0;
@@ -437,7 +437,7 @@ img {
 }
 
 /* ======================PAGE PORTFOLIO=========================== */
-/* .menu-link-portfolio {
+.menu-link-portfolio {
   position: relative;
   color: #404bbf;
 }
@@ -467,7 +467,6 @@ img {
 .btn-all-item {
   color: var(--hero-color);
 }
-
 .btn-portfolio {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -486,7 +485,6 @@ img {
   transition: box-shadow var(--timing-funktion), color var(--timing-funktion),
     border-color var(--timing-funktion), background-color var(--timing-funktion);
 }
-
 .btn-portfolio:hover,
 .btn-portfolio:focus {
   color: var(--hero-color);
@@ -498,7 +496,6 @@ img {
 .btn-list .btn-item + .btn-item {
   margin-left: 24px;
 }
-
 .list-page {
   display: flex;
   padding-left: 0;
@@ -509,7 +506,6 @@ img {
 .list-positiv {
   width: calc((100% - 72px) / 4);
 }
-
 .work-items {
   width: 360px;
   margin-right: 24px;
@@ -522,7 +518,6 @@ img {
 .link-items:focus .overlay {
   transform: translate(0, 0);
 }
-
 .link-items:hover {
   box-shadow: var(--shadow-color);
 }
@@ -531,7 +526,6 @@ img {
   border-width: 0px 1px 1px 1px;
   padding: 32px 16px;
 }
-
 .examples-list {
   margin-bottom: 120px;
 }
@@ -544,7 +538,6 @@ img {
 .title-subject {
   margin-bottom: 8px;
 }
-
 .team-list-img-wraper {
   position: relative;
   overflow: hidden;
@@ -555,7 +548,6 @@ img {
   height: 100%;
   transform: translate(0, 100%);
   transition: transform var(--timing-funktion);
-
   background-color: var(--brand-color);
   font-size: 16px;
   line-height: 24px;
@@ -564,12 +556,12 @@ img {
   padding: 40px 32px 0;
   top: 0;
   left: 0;
-} */
+}
 
 /* ===========================CUSTOMERS========================== */
 .customers {
-  padding-bottom: 120px;
-  padding-top: 120px;
+  padding-bottom: 96px;
+  padding-top: 96px;
 }
 .customers-title {
   font-weight: 700;
@@ -596,6 +588,7 @@ img {
 .customers-item:hover .customers-link .customers-icon {
   fill: #404bbf;
 }
+
 .customers-link {
   height: 88px;
   border: 1px solid var(--icon-color);
