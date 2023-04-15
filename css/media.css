@@ -147,10 +147,10 @@ color: var(--hover-color);
   color: #2E2F42;
   transition: color  var(--timing-funktion);
 }
-.mobile-menu-link:hover,
+/* .mobile-menu-link:hover,
 .mobile-menu-link:focus {
   color: var(--hover-color);
-}
+} */
 .advantages-box {
     display: none;
 }
