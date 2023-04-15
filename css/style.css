@@ -375,6 +375,9 @@ img {
 .list-page .advantages-items + .advantages-items {
   margin-left: 24px;
 }
+.advantages-mob {
+  width: 100%;
+}
 
 /* ============================OUR TEAM========================= */
 .team-title {
@@ -497,16 +500,13 @@ img {
   margin-left: 24px;
 }
 .list-page {
-  display: flex;
+  /* display: flex; */
   padding-left: 0;
 }
 .list-page-portfolio {
   flex-wrap: wrap;
 }
-.list-positiv {
-  width: calc((100% - 72px) / 4);
-}
-.work-items {
+/ .work-items {
   width: 360px;
   margin-right: 24px;
   margin-bottom: 48px;
