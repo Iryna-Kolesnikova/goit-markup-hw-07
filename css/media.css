@@ -425,8 +425,7 @@ margin-left: auto;
 
 .list-page {
     display: flex;
-column-gap: 24px;
-row-gap: 72px;
+gap: 72px 24px;
 flex-direction: row;
 flex-wrap: wrap;
 }
@@ -505,7 +504,9 @@ flex-direction: column;}
 .advantages-box-item {
     display: none;
 }
-
+.work-img {
+  width: 100%;
+}
   .work-example {
     display: none;
   }
@@ -665,5 +666,8 @@ margin-left: 16px;
 .btn-section {
   padding-top: 100px;
   padding-bottom: 72px;
+}
+.list-page-portfolio {
+  gap: 48px 24px;
 }
 }
