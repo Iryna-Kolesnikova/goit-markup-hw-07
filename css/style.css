@@ -471,8 +471,6 @@ img {
   align-items: flex-start;
   padding: 0px;
   margin-bottom: 48px;
-  /* justify-content: center; */
-  /* margin-bottom: 72px; */
 }
 .btn-all-item {
   color: var(--hero-color);
@@ -490,18 +488,13 @@ img {
   cursor: pointer;
   background: var(--btn-color);
   border-radius: 4px;
-  /* padding: 12px 24px; */
   padding: 8px 16px;
   border: 1px solid var(--last-color);
   transition: box-shadow var(--timing-funktion), color var(--timing-funktion),
     border-color var(--timing-funktion), background-color var(--timing-funktion);
 }
 
-/* .btn-list .btn-item + .btn-item {
-  margin-left: 24px;
-} */
 .list-page {
-  /* display: flex; */
   padding-left: 0;
 }
 .text-chose {
@@ -512,7 +505,6 @@ img {
   color: var(--body-color);
 }
 .list-page-portfolio {
-  /* flex-wrap: wrap; */
   display: flex;
   flex-direction: column;
   gap: 48px;
